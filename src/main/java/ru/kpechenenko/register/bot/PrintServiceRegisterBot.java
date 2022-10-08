@@ -24,7 +24,6 @@ public final class PrintServiceRegisterBot extends TelegramLongPollingBot {
     private final UserRegistrationService registrationService;
     private final RegistrationHistoryService registrationHistoryService;
 
-    // todo fix it
     public PrintServiceRegisterBot(@Value("${bot.username}") String botUsername,
                                    @Value("${bot.token}") String botToken,
                                    EmailValidator emailValidator,
