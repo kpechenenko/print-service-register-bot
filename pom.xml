@@ -6,6 +6,8 @@
   <groupId>ru.kpechenenko</groupId>
   <artifactId>print-service-register-bot</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <name>Print service register bot</name>
+  <description>A simple telegram bot for registering users in the company print service using the company's smtp server</description>
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
