@@ -12,7 +12,7 @@ public final class Application {
             var telegramBotsApi = applicationContext.getBean(TelegramBotsApi.class);
             telegramBotsApi.registerBot(currencyBot);
         } catch (Exception e) {
-            System.err.printf("ERROR! %s\n", e.getMessage());
+            e.printStackTrace();
         }
     }
 }
