@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import ru.kpechenenko.register.bot.config.BotConfig;
 
-public final class Program {
+public final class Application {
     public static void main(String[] args) {
         try {
             var applicationContext = new AnnotationConfigApplicationContext(BotConfig.class);
